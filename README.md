@@ -14,6 +14,7 @@ Esse sistema foi criado no intuito de ajudar pessoas a fazer marcação de viage
 6 - O sistema tem um agendador de tarefas, então após sistema rodando, podemos rodar o comando de agendamento, assim irá observar a cada 15 min tokens que não foram válidados para acesso ao sistema. Comando: php artisan schedule:work.
 
 *Frontend*
+
 1 - Se não tiver o ambiente em sua maquina , vamos fazer um pull do projeto, criar e puxar a imagem via docker.
 2 - Entrar na pasta frontend , rodar npm install.
 3 - npm run serve.
