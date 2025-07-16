@@ -1,0 +1,22 @@
+.alert-danger {
+    height: 1vh;
+    margin: 0;
+    font-size: .80em;
+    justify-content: center;
+}
+
+
+.alert-danger div {
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .alert-danger {
+        height: 1vh;
+        margin: 0;
+        font-size: .80em;
+        justify-content: center;
+        width: 80%;
+    }
+}
+

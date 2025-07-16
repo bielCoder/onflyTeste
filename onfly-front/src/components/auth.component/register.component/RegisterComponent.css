@@ -1,0 +1,8 @@
+input.name:not(:placeholder-shown) ~ label, input.name:focus ~ label {
+    margin-top: -.7em;
+    background-color: #1E90FF;
+    font-size: .75em;
+    animation: .5s all ease-in-out;
+    margin-left: 5px;
+
+}

@@ -1,0 +1,76 @@
+.container-content-separate {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container {
+    width: 80vw;
+    height: 85vh;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.container-content {
+    position: relative
+}
+
+.container-content h4 {
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+.card {
+    width: 200px;
+    background-color: #1e90ff;
+    color: #fff;
+    display: flex;
+    flex-direction: column; /* ✅ Direção em coluna */
+    justify-content: space-between; /* Ajusta melhor o espaçamento */
+    align-items: center;
+    border-radius: 5px;
+    margin: 0.5em; /* Adiciona espaçamento entre os cards */
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+    width: 100%;
+    margin-left: .5em;
+}
+
+.image-card {
+    width: 100%;
+    height: 20vh;
+    background-image: url('../../assets/img/fly.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+
+.reserve {
+    padding-left: 3em;
+    padding-right: 3em;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #1e90ff;
+    display: flex;
+    gap: .5em;
+    margin-bottom: .2em;
+}
+
+.reserve:hover {
+    opacity: 85%;
+}
+
+.container-travelling-cards {
+    margin-left: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}

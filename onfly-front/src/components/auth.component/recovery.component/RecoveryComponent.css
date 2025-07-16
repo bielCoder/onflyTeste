@@ -1,0 +1,16 @@
+input.password:focus ~ label {
+    margin-top: -.6em;
+    background-color: #2e5e7b;
+    font-size: .75em;
+    animation: .5s all ease-in-out;
+}
+
+input.password:not(:placeholder-shown) ~ label {
+    margin-top: -.7em;
+    background-color: #2e5e7b;
+    font-size: .75em;
+    padding-left: .6em;
+    padding-right: .6em;
+    animation: .5s all ease-in-out;
+}
+
